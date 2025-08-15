@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "esoij-noexceptions",
+	"version": "${version}",
+	"name": "No Exceptions!",
+	"description": "This mod attempts to remove every error from the game, causing it to crash as little as possible.\nThis WILL cause errors.",
+	"authors": [
+		"esoij"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "idfk",
+	"icon": "assets/esoij-noexceptions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"esoij-noexceptions.mixins.json"
+	],
+	"depends": {
+		"minecraft": "*",
+		"java": "*"
+	},
+	"suggests": {
+		"another-mod": "1.4.4.9"
+	}
+}
